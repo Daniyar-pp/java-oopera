@@ -2,12 +2,8 @@ import java.util.Objects;
 
 public class Actor extends Person {
 
-    int height;
+    private int height;
 
-    enum gender {
-        MALE,
-        FEMALE;
-    }
 
     public Actor(String name, String surname, int height) {
         super(name, surname);
@@ -22,7 +18,7 @@ public class Actor extends Person {
                 + "Рост = " + "(" + height + ")" + "}";
     }
 
-     @Override
+    @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || this.getClass() != obj.getClass()) return false;

@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public class Ballet extends MusicalShow {
-    String choreographer;
+   protected Person choreographer;
 
     public Ballet(String title, int duration, String director, ArrayList<Actor> listOfActors,
-                  String musicAuthor, String librettoText, String choreographer) {
+                  Person musicAuthor, String librettoText, Person choreographer) {
         super(title, duration, director, listOfActors, musicAuthor, librettoText);
         this.choreographer = choreographer;
     }

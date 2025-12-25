@@ -13,8 +13,8 @@ public class Theatre {
         Director Kris = new Director("Кристофер", "Нолан", 10);
         Director Nikita = new Director("Никита", "Михалков", 15);
 
-        String musicAuthor = "Людовико Эйнауди";
-        String choreographer = "Иван Хореографов";
+        Person musicAuthor = new Person("Людовико","Эйнауди");
+        Person choreographer = new Person("Иван", "Иванов");
 
         Show classic = new Show("Классический", 60, "Барабанов", new ArrayList<>());
         Opera opera = new Opera("Опера", 100, "Петров", new ArrayList<>(), musicAuthor,

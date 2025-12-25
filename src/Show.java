@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public class Show {
-    String title; // название
-    int duration; // длительность в минутах
-    String director;
-    ArrayList<Actor> listOfActors; // список актеров
+    protected String title; // название
+    protected int duration; // длительность в минутах
+    protected String director;
+    protected ArrayList<Actor> listOfActors; // список актеров
 
     public Show(String title, int duration, String director, ArrayList<Actor> listOfActors) {
         this.title = title;
